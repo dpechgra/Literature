@@ -1,0 +1,4 @@
+Explanation of Linear Errors / Angular errors / Planar errors in linear drives:
+https://www.linearmotiontips.com/what-are-planar-errors-and-how-do-they-affect-accuracy-linear-systems/
+
+https://www.photonics.com/Articles/Positioning_System_Performance_Understanding_the/a25516

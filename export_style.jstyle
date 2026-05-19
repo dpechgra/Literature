@@ -1,0 +1,34 @@
+NAME
+Documentation of jstyle at: http://help.jabref.org/en/OpenOfficeIntegration
+EfE-File
+
+PROPERTIES
+Title="Bibliography"
+IsSortByPosition=false
+IsNumberEntries=false
+ReferenceParagraphFormat="Standard"
+ReferenceHeaderParagraphFormat="Standard"
+
+
+CITATION
+MaxAuthors=3
+MaxAuthorsFirst=3
+AuthorSeparator=", "
+AuthorLastSeparator=" and "
+EtAlString=" et al."
+CitationSeparator=", "
+MultiCiteChronological=true
+BracketBefore="("
+BracketAfter=")"
+BracketBeforeInList="["
+BracketAfterInList="]"
+MinimumGroupingCount=3
+CitationCharacterFormat="Standard"
+FormatCitations=true
+GroupedNumbersSeparator="-"
+UniquefierSeparator=","
+InTextYearSeparator=" "
+YearSeparator=" "
+
+LAYOUT
+default=\begin{author}\format[Authors(FirstLast,Fullname,sep=\, ,LastSep= and ,EtAl= et al.,3,3),]{\author}, \end{author}\begin{title}"\format[RemoveLatexCommands]{\title}", \end{title}<i>\begin{journal}\format[RemoveLatexCommands]{\journal}, \end{journal}</i>\begin{volume}vol. \format[RemoveLatexCommands]{\volume}, \end{volume}\begin{pages}pp. \format[RemoveLatexCommands,FormatPagesForHTML]{\pages}, \end{pages}\begin{year}\year\uniq\end{year}<br>
