@@ -1207,22 +1207,6 @@ Thesis is about reducing the distortion that is added byf the SMPS output end st
   publisher    = {Institute of Electrical and Electronics Engineers ({IEEE})},
 }
 
-@Article{Oomen2018,
-  author       = {Tom Oomen},
-  date         = {2018},
-  journaltitle = {{IEEJ} Journal of Industry Applications},
-  title        = {Advanced Motion Control for Precision Mechatronics: Control, Identification, and Learning of Complex Systems},
-  doi          = {10.1541/ieejjia.7.127},
-  number       = {2},
-  pages        = {127--140},
-  volume       = {7},
-  comment      = {Addresses challenges that arise, when mechatronic systems are built, so that flexible modes of the system are not beyond the control bandwidth anymore as in classical preicsion mechatronic systems. Introduces robust model identfication and control design},
-  file         = {:PDF/Oomen2017.pdf:PDF},
-  groups       = {Control, Modelling},
-  priority     = {prio1},
-  publisher    = {Institute of Electrical Engineers of Japan ({IEE} Japan)},
-}
-
 @Thesis{AinslieMalik2013,
   author      = {Ainslie-Malik, Gregory R.},
   date        = {2013},
@@ -4678,10 +4662,12 @@ KF is tuned, such that Q = 0 for the model states and some constant value for th
   number       = {6},
   pages        = {734--741},
   volume       = {24},
+  comment      = {Describes identification of the Generalized Maxwell-Slip (GMS) model in the frequency domain. Good explanation how friction effects in the pre-sliding and sliding regime act on a positioning system},
   file         = {:PDF/Yoon2014.pdf:PDF},
-  groups       = {Friction Control/Modeling/Estimation},
+  groups       = {Friction Control/Modeling/Estimation, Clemens Ott Master Thesis},
   priority     = {prio1},
   publisher    = {Elsevier BV},
+  ranking      = {rank5},
 }
 
  
@@ -4694,9 +4680,12 @@ KF is tuned, such that Q = 0 for the model states and some constant value for th
   issn         = {0141-6359},
   pages        = {101--109},
   volume       = {55},
-  file         = {:PDF/Yoon2019b.pdf:PDF},
-  groups       = {Friction Control/Modeling/Estimation},
+  comment      = {Extension of former Yoon and Trumper paper from 2014},
+  file         = {:Yoon2019b - Friction Microdynamics in the Time and Frequency Domains_ Tutorial on Frictional Hysteresis and Resonance in Precision Motion Systems.pdf:PDF},
+  groups       = {Friction Control/Modeling/Estimation, Clemens Ott Master Thesis},
+  priority     = {prio1},
   publisher    = {Elsevier BV},
+  ranking      = {rank5},
 }
 
  
@@ -5718,7 +5707,7 @@ Therefore no cables need to go on coarse positioning unit and no coil has to be 
   urldate      = {2026-05-22},
   volume       = {12},
   abstract     = {Parallel–serial (hybrid) manipulators represent robotic systems composed of kinematic chains with parallel and serial structures. These manipulators combine the benefits of both parallel and serial mechanisms, such as increased stiffness, high positioning accuracy, and a large workspace. This study discusses the existing architectures and applications of parallel–serial robots and the methods of their design and analysis. The paper reviews around 500 articles and presents over 150 architectures of manipulators used in machining, medicine, and pick-and-place tasks, humanoids and legged systems, haptic devices, simulators, and other applications, covering both lower mobility and kinematically redundant robots. After that, the paper considers how researchers have developed and analyzed these manipulators. In particular, it examines methods of type synthesis, mobility, kinematic, and dynamic analysis, workspace and singularity determination, performance evaluation, optimal design, control, and calibration. The review concludes with a discussion of current trends in the field of parallel–serial manipulators and potential directions for future studies.},
-  file         = {Full Text PDF:https\://www.mdpi.com/2075-1702/12/11/811/pdf?version=1732083909:application/pdf},
+  file         = {:antonov2024.pdf:PDF},
   howpublished = {Review},
   keywords     = {parallel–serial (hybrid) manipulator, machine tools, medicine robotics, kinematic redundancy, type synthesis, kinematic and dynamic analysis, optimal design, calibration, robot control},
   publisher    = {Multidisciplinary Digital Publishing Institute},
@@ -5747,12 +5736,70 @@ Therefore no cables need to go on coarse positioning unit and no coil has to be 
   shortjournal = {{IOP} Conf. Ser.: Mater. Sci. Eng.},
 }
 
+ 
+@Article{Herpen2014,
+  author       = {van Herpen, Robbert and Oomen, Tom and Kikken, Edward and van de Wal, Marc and Aangenent, Wouter and Steinbuch, Maarten},
+  date         = {2014-09-01},
+  journaltitle = {Mechatronics},
+  title        = {Exploiting additional actuators and sensors for nano-positioning robust motion control},
+  doi          = {10.1016/j.mechatronics.2014.03.008},
+  issn         = {0957-4158},
+  number       = {6},
+  pages        = {619--631},
+  series       = {Control of High-Precision Motion Systems},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0957415814000646},
+  urldate      = {2026-05-26},
+  volume       = {24},
+  abstract     = {The ongoing need for miniaturization and an increase of throughput in {IC}-manufacturing is obstructed by performance limitations in motion control of nano-positioning wafer stages. These limitations are imposed by flexible dynamical behavior, associated with structural deformations of the nano-positioning stages. The aim of this research is to investigate limits on achievable performance in a conventional control configuration and to mitigate these limits through the use of additional actuators and sensors. To this end, a systematic framework for control design using additional actuators and sensors in the generalized plant configuration is presented, which leads to a well-posed H∞-control optimization problem that extends conventional design approaches in a natural way and exploits physical insight to address structural deformations in weighting filter design. Through an experimental confrontation of the design framework with a prototype next-generation nano-positioning motion system, successful performance enhancement beyond the conventional limits is demonstrated.},
+  file         = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/abs/pii/S0957415814000646/pdfft?download=true:application/pdf},
+  groups       = {Control},
+  keywords     = {Mechatronic systems, Performance limitations, Robust control, System identification, Input–output selection},
+  shortjournal = {Mechatronics},
+}
+
+@Article{Oomen2018,
+  author       = {Oomen, Tom},
+  date         = {2018},
+  journaltitle = {{IEEJ} Journal of Industry Applications},
+  title        = {Advanced Motion Control for Precision Mechatronics: Control, Identification, and Learning of Complex Systems},
+  doi          = {10.1541/ieejjia.7.127},
+  number       = {2},
+  pages        = {127--140},
+  volume       = {7},
+  abstract     = {Manufacturing equipment and scientific instruments, including wafer scanners, printers, microscopes, and medical imaging scanners, require accurate and fast motions. An increase in such requirements necessitates enhanced control performance. The aim of this paper is to identify several challenges for advanced motion control originating from these increasing accuracy, speed, and cost requirements. For instance, flexible mechanics must be explicitly addressed through overactuation, oversensing, inferential control, and position-dependent control. This in turn requires suitable models of appropriate complexity. One of the main advantages of such motion systems is the fact that experimenting and collecting large amounts of accurate data is inexpensive, paving the way for identifying and learning of models and controllers from experimental data. Several ongoing developments are outlined that constitute part of an overall framework for control, identification, and learning of complex motion systems. In turn, this may pave the way for new mechatronic design principles, leading to fast lightweight machines where spatio-temporal flexible mechanics are explicitly compensated through advanced motion control.},
+  comment      = {Addresses challenges that arise, when mechatronic systems are built, so that flexible modes of the system are not beyond the control bandwidth anymore as in classical preicsion mechatronic systems. Introduces robust model identfication and control design},
+  file         = {:PDF/Oomen2017.pdf:PDF},
+  groups       = {Control, Modelling},
+  keywords     = {mechatronics, motion control, robust control, multivariable control, system identification, iterative learning control},
+  priority     = {prio1},
+  publisher    = {Institute of Electrical Engineers of Japan ({IEE} Japan)},
+  shorttitle   = {Advanced Motion Control for Precision Mechatronics},
+}
+
+ 
+@InProceedings{Padron2025,
+  author     = {Padron, Juan and Miyazaki, Toshimasa and Yokokura, Yuki and Ohishi, Kiyoshi},
+  date       = {2025-02},
+  title      = {A Torque-Sensor-Based Nonlinear Observer for Shockless Torque Control of Two-Inertia Systems with Backlash},
+  doi        = {10.1109/ICM62621.2025.10934895},
+  eventtitle = {2025 {IEEE} International Conference on Mechatronics ({ICM})},
+  note       = {{ISSN}: 2837-1151},
+  pages      = {1--6},
+  url        = {https://ieeexplore.ieee.org/document/10934895},
+  urldate    = {2026-05-28},
+  abstract   = {Two-inertia resonant systems are used to represent several motion control systems with resonance modes such as drivetrains and robot joints, offering a more flexible approach for their control compared to single-inertia representations. Controlling the transmitted torsion torque (also known as joint torque) to the load allows to effectively control the driven load of the system regardless of the resonant mode, which can be done by employing torque sensors. However, many real systems contain some degree of joint backlash, which causes a large, impulse-like shock on torque reversals due to the mechanical play of the joint elements, which can lead to undesired behavior and even destruction of the mechanical elements of the system being controlled. While torque sensors are able to sense whether the drive and load-sides are in contact or not, they don't give information on the relative angle between both sides, which is necessary for achieving shockless torque control. This paper introduces a novel nonlinear observer structure based on torque sensing that is able to estimate all the load-side states even when backlash occurs. This new observer is then implemented in a torsion torque control scheme that employs model predictive control during backlash gap traversings to achieve shockless control. Simulation results confirm the effectiveness of this method.},
+  file       = {Full Text PDF:Padron2025 - A Torque Sensor Based Nonlinear Observer for Shockless Torque Control of Two Inertia Systems with Backlash.pdf:PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10934895&ref=},
+  groups     = {Clemens Ott Master Thesis, Control, Friction Control/Modeling/Estimation},
+  issn       = {2837-1151},
+  keywords   = {Mechanical sensors, Torque, Simulation, Torque control, Observers, Robot sensing systems, Control systems, Sensor systems, Robustness, Predictive control, Torque sensor, Nonlinear observer, Model predictive control},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
 1 StaticGroup:Linear Rail/Spindle Drive\;0\;1\;0x8a8a8aff\;\;\;;
-1 StaticGroup:Control\;0\;0\;0x8a8a8aff\;\;\;;
+1 StaticGroup:Control\;0\;1\;0x8a8a8aff\;\;\;;
 2 StaticGroup:Hinf-control\;0\;1\;0x8a8a8aff\;\;\;;
 2 StaticGroup:Control tuning\;0\;1\;0x8a8a8aff\;\;\;;
 2 StaticGroup:ILC\;0\;1\;0x8a8a8aff\;\;\;;
