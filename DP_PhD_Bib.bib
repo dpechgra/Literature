@@ -602,7 +602,8 @@
   pages        = {403--406},
   volume       = {60},
   comment      = {Ball Screw drive with lorentz actuator and air bearing, Measurement over interferometer with increased resolution by doubling the light travelling rangeM Sub-nm resolution over 150mm},
-  file         = {:PDF/Shinno2011.pdf:PDF},
+  file         = {:Shinno2011 - A Newly Developed Long Range Positioning Table System with a Sub Nanometer Resolution.pdf:PDF},
+  groups       = {Lorentz Actuators},
   publisher    = {Elsevier {BV}},
 }
 
@@ -1532,7 +1533,10 @@ Matlab implementation: https://de.mathworks.com/matlabcentral/fileexchange/47258
   title     = {Comparison of linear voice coil and reluctance actuators for high-precision applications},
   doi       = {10.1109/epepemc.2010.5606572},
   publisher = {{IEEE}},
-  file      = {:PDF/Vrijsen2010.pdf:PDF},
+  comment   = {Direct comparison of Lorentz and reluctance actuators
+Very relevant for the transition from VCA to reluctance; not TU Wien},
+  file      = {:Vrijsen2010 - Comparison of Linear Voice Coil and Reluctance Actuators for High Precision Applications.pdf:PDF},
+  groups    = {Lorentz Actuators},
 }
 
 @Article{Wertjanz2022a,
@@ -1727,9 +1731,9 @@ Matlab implementation: https://de.mathworks.com/matlabcentral/fileexchange/47258
   number       = {2},
   pages        = {192--199},
   volume       = {8},
-  comment      = {FEM simulation HRA vs VCA regarding eddy-currents, losses, ...},
-  file         = {:PDF/Cigarini2018.pdf:PDF},
-  groups       = {Magnetic Actuators / Motors / Vibration Isolation, Hybrid Reluctance Actuators},
+  comment      = {FEM simulation HRA vs VCA regarding eddy-currents, losses, motor constant, ...},
+  file         = {:Cigarini2019 - Comparative Finite Element Analysis of a Voice Coil Actuator and a Hybrid Reluctance Actuator.pdf:PDF},
+  groups       = {Magnetic Actuators / Motors / Vibration Isolation, Hybrid Reluctance Actuators, Lorentz Actuators},
   publisher    = {Institute of Electrical Engineers of Japan (IEE Japan)},
 }
 
@@ -3540,22 +3544,6 @@ Precision of machines},
 }
 
  
-@Article{Milasevicius2023a,
-  author       = {Milaševičius, Martynas and Mačiulis, Laurynas},
-  date         = {2023-12},
-  journaltitle = {Aerospace},
-  title        = {A Review of Mechanical Fine-Pointing Actuators for Free-Space Optical Communication},
-  doi          = {10.3390/aerospace11010005},
-  issn         = {2226-4310},
-  number       = {1},
-  pages        = {5},
-  volume       = {11},
-  file         = {:PDF/Milasevicius2023.pdf:PDF},
-  groups       = {FSM Technology/Applications},
-  publisher    = {MDPI AG},
-}
-
- 
 @Article{Huang2024,
   author       = {Huang, Wei-Wei and Wang, Xiangyuan and Meng, Yixuan and Li, Linlin and Zhang, Xinquan and Ren, Mingjun and Zhu, Li-Min},
   date         = {2024-09},
@@ -4539,8 +4527,8 @@ KF is tuned, such that Q = 0 for the model states and some constant value for th
   number       = {8},
   pages        = {2118--2126},
   volume       = {47},
-  file         = {:PDF/Kou2011.pdf:PDF},
-  groups       = {Permament magnet motors, Magnetic Actuators / Motors / Vibration Isolation},
+  file         = {:Kou2011 - Analysis and Design of a Novel 3 DOF Lorentz Force Driven DC Planar Motor.pdf:PDF},
+  groups       = {Permament magnet motors, Magnetic Actuators / Motors / Vibration Isolation, Lorentz Actuators},
   publisher    = {Institute of Electrical and Electronics Engineers (IEEE)},
 }
 
@@ -4555,8 +4543,8 @@ KF is tuned, such that Q = 0 for the model states and some constant value for th
   number       = {5},
   pages        = {553--565},
   volume       = {20},
-  file         = {:PDF/Lei2010.pdf:PDF},
-  groups       = {Permament magnet motors, Magnetic Actuators / Motors / Vibration Isolation},
+  file         = {:Lei2010 - Modeling and Analysis of a 3 DOF Lorentz Force Driven Planar Motion Stage for Nanopositioning.pdf:PDF},
+  groups       = {Permament magnet motors, Magnetic Actuators / Motors / Vibration Isolation, Lorentz Actuators},
   publisher    = {Elsevier BV},
 }
 
@@ -5907,6 +5895,361 @@ Therefore no cables need to go on coarse positioning unit and no coil has to be 
   keywords   = {Magnetic forces, Electrostriction, Magnetostriction, Dielectrics, Polarization, Magnetization, Permittivity, Permeability, Conductivity, Space stations},
 }
 
+ 
+@Article{Devasia2007,
+  author       = {Devasia, Santosh and Eleftheriou, Evangelos and Moheimani, S. O. Reza},
+  date         = {2007-09},
+  journaltitle = {{IEEE} Transactions on Control Systems Technology},
+  title        = {A Survey of Control Issues in Nanopositioning},
+  doi          = {10.1109/TCST.2007.903345},
+  issn         = {1558-0865},
+  number       = {5},
+  pages        = {802--823},
+  url          = {https://ieeexplore.ieee.org/document/4294011},
+  urldate      = {2026-06-03},
+  volume       = {15},
+  abstract     = {Nanotechnology is the science of understanding matter and the control of matter at dimensions of 100 nm or less. Encompassing nanoscale science, engineering, and technology, nanotechnology involves imaging, measuring, modeling, and manipulation of matter at this level of precision. An important aspect of research in nanotechnology involves precision control and manipulation of devices and materials at a nanoscale, i.e., nanopositioning. Nanopositioners are precision mechatronic systems designed to move objects over a small range with a resolution down to a fraction of an atomic diameter. The desired attributes of a nanopositioner are extremely high resolution, accuracy, stability, and fast response. The key to successful nanopositioning is accurate position sensing and feedback control of the motion. This paper presents an overview of nanopositioning technologies and devices emphasizing the key role of advanced control techniques in improving precision, accuracy, and speed of operation of these systems.},
+  comment      = {Broad, highly cited nanopositioning/control survey; good for motivating piezo-based nanopositioning without going deep into piezo theory},
+  file         = {Full Text PDF:Devasia2007 - A Survey of Control Issues in Nanopositioning.pdf:PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=4294011&ref=},
+  keywords     = {Actuators, Nanopositioning, Force, Servomotors, Probes, Bandwidth allocation, Coils, Actuators, Nanopositioning, Force, Servomotors, Probes, Bandwidth allocation, Coils, Actuators, atomic force microscopy, nano-positioning, nanotechnology, piezoelectric devices, position sensors, servo control},
+}
+
+ 
+@Article{Gu2016,
+  author       = {Gu, Guo-Ying and Zhu, Li-Min and Su, Chun-Yi and Ding, Han and Fatikow, Sergej},
+  date         = {2016-01},
+  journaltitle = {{IEEE} Transactions on Automation Science and Engineering},
+  title        = {Modeling and Control of Piezo-Actuated Nanopositioning Stages: A Survey},
+  doi          = {10.1109/TASE.2014.2352364},
+  issn         = {1558-3783},
+  number       = {1},
+  pages        = {313--332},
+  url          = {https://ieeexplore.ieee.org/abstract/document/6909086},
+  urldate      = {2026-06-03},
+  volume       = {13},
+  abstract     = {Piezo-actuated stages have become more and more promising in nanopositioning applications due to the excellent advantages of the fast response time, large mechanical force, and extremely fine resolution. Modeling and control are critical to achieve objectives for high-precision motion. However, piezo-actuated stages themselves suffer from the inherent drawbacks produced by the inherent creep and hysteresis nonlinearities and vibration caused by the lightly damped resonant dynamics, which make modeling and control of such systems challenging. To address these challenges, various techniques have been reported in the literature. This paper surveys and discusses the progresses of different modeling and control approaches for piezo-actuated nanopositioning stages and highlights new opportunities for the extended studies.},
+  comment      = {Piezo: high resolution, but nonlinearities such as hysteresis, creep, aging, thermal effects
+Better than a vague "piezo review" placeholder; directly about piezo-actuated nanopositioning},
+  file         = {Full Text PDF:Gu2016 - Modeling and Control of Piezo Actuated Nanopositioning Stages_ a Survey.pdf:PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=6909086&ref=},
+  keywords     = {Creep, Hysteresis, Piezoelectric actuators, Mathematical model, Nanopositioning, Vibrations, Integrated circuit modeling, Creep, feedback control, feedforward control, hysteresis, piezo-actuated nanopositioning stage, piezoelectric actuator, vibrational dynamics},
+  shorttitle   = {Modeling and Control of Piezo-Actuated Nanopositioning Stages},
+}
+
+ 
+@Article{Potekhina2019,
+  author       = {Potekhina, Alissa and Wang, Changhai},
+  date         = {2019-12},
+  journaltitle = {Actuators},
+  title        = {Review of Electrothermal Actuators and Applications},
+  doi          = {10.3390/act8040069},
+  issn         = {2076-0825},
+  langid       = {english},
+  number       = {4},
+  pages        = {69},
+  url          = {https://www.mdpi.com/2076-0825/8/4/69},
+  urldate      = {2026-06-03},
+  volume       = {8},
+  abstract     = {This paper presents a review of electrothermal micro-actuators and applications. Electrothermal micro-actuators have been a significant research interest over the last two decades, and many different designs and applications have been investigated. The electrothermal actuation method offers several advantages when compared with the other types of actuation approaches based on electrostatic and piezoelectric principles. The electrothermal method offers flexibility in the choice of materials, low-cost fabrication, and large displacement capabilities. The three main configurations of electrothermal actuators are discussed: hot-and-cold-arm, chevron, and bimorph types as well as a few other unconventional actuation approaches. Within each type, trends are outlined from the basic concept and design modifications to applications which have been investigated in order to enhance the performance or to overcome the limitations of the previous designs. It provides a grasp of the actuation methodology, design, and fabrication, and the related performance and applications in cell manipulation, micro assembly, and mechanical testing of nanomaterials, Radio Frequency ({RF}) switches, and optical Micro-Electro-Mechanical Systems ({MEMS}).},
+  comment      = {Electrothermal actuators: compact, large displacement/force, thermal limitations
+Review source; supports the general actuator-principle overview},
+  file         = {Full Text PDF:https\://www.mdpi.com/2076-0825/8/4/69/pdf?version=1569288685:application/pdf},
+  howpublished = {Review},
+  keywords     = {electrothermal, actuators, {MEMS}, microgrippers, switches},
+  publisher    = {Multidisciplinary Digital Publishing Institute},
+  rights       = {http://creativecommons.org/licenses/by/3.0/},
+  type         = {Review},
+}
+
+ 
+@Article{Apicella2019,
+  author       = {Apicella, Valerio and Clemente, Carmine Stefano and Davino, Daniele and Leone, Damiano and Visone, Ciro},
+  date         = {2019-06},
+  journaltitle = {Actuators},
+  title        = {Review of Modeling and Control of Magnetostrictive Actuators},
+  doi          = {10.3390/act8020045},
+  issn         = {2076-0825},
+  langid       = {english},
+  number       = {2},
+  pages        = {45},
+  url          = {https://www.mdpi.com/2076-0825/8/2/45},
+  urldate      = {2026-06-03},
+  volume       = {8},
+  abstract     = {Magnetostrictive actuators play an important role in the perception of usefulness of smart materials and devices. Their applications are potentially wider than that of piezoelectric actuators because of the higher energy density and intrinsic robustness. However, the non-negligible hysteresis and complexity of their characteristics make the design and control quite difficult and has limited their diffusion in industrial applications. Nevertheless, the scientific literature presents a wide offer of results in design and geometries, modeling and control that may be exploited for applications. This paper gives a reasoned review of the main results achieved in the literature about design, modeling and control of magnetostrictive actuators exploiting the direct effects of magnetostriction (Joule and Wiedemann). Some perspectives and challenges about magnetostrictive actuators development are also gathered.},
+  comment      = {Magnetostrictive actuators: high-force material strain actuation, nonlinear/hysteretic behavior
+More fitting than old textbook-style Terfenol-D references; specifically about modeling and control},
+  file         = {Full Text PDF:https\://www.mdpi.com/2076-0825/8/2/45/pdf?version=1561455774:application/pdf},
+  howpublished = {Review},
+  keywords     = {smart materials, magnetostriction, Joule effect, Wiedemann effect, actuators, control systems, self-sensing},
+  publisher    = {Multidisciplinary Digital Publishing Institute},
+  rights       = {http://creativecommons.org/licenses/by/3.0/},
+  type         = {Review},
+}
+
+ 
+@Article{Grade2003,
+  author       = {Grade, J.D. and Jerman, H. and Kenny, T.W.},
+  date         = {2003-06},
+  journaltitle = {Journal of Microelectromechanical Systems},
+  title        = {Design of large deflection electrostatic actuators},
+  doi          = {10.1109/JMEMS.2003.811750},
+  issn         = {1941-0158},
+  number       = {3},
+  pages        = {335--343},
+  url          = {https://ieeexplore.ieee.org/document/1203772},
+  urldate      = {2026-06-03},
+  volume       = {12},
+  abstract     = {Electrostatic, comb-drive actuators have been designed for applications requiring displacements of up to 150 μm in less than 1 ms. A nonlinear model of the actuator relates the resonant frequency and the maximum stable deflection to the actuator dimensions. A suite of experiments that were carried out on deep reactive ion etched ({DRIE}), single-crystal silicon, comb-drive actuators confirm the validity of the model. Four actuator design improvements were implemented. First, a folded-flexure suspension consisting of two folded beams rather than four and a U-shaped shuttle allowed the actuator area to be cut in half without degrading its performance. Second, the comb teeth were designed with linearly increasing lengths to reduce side instability by a factor of two. Third, the folded-flexure suspensions were fabricated in an initially bent configuration, improving the suspension stiffness ratio and reducing side instability by an additional factor of 30. Finally, additional actuation range was achieved using a launch and capture actuation scheme in which the actuator was allowed to swing backward after full forward deflection; the shuttle was captured and held using the backs of the comb banks as high-force, parallel-plate actuators.},
+  comment      = {Electrostatic actuators: MEMS, high speed, nonlinear voltage/gap dependenc
+Useful for electrostatic actuator limitations and large-deflection MEMS designs},
+  file         = {Full Text PDF:Grade2003 - Design of Large Deflection Electrostatic Actuators.pdf:PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=1203772&ref=},
+  keywords     = {Electrostatic actuators, Etching, Silicon, Teeth, Micromechanical devices, Drives, Voltage, Resonant frequency, Degradation, Pneumatic actuators},
+}
+
+ 
+@Article{Patil2024,
+  author       = {Patil, Mukund A. and Kadoli, Ravikiran},
+  date         = {2024-12-01},
+  journaltitle = {Sensors and Actuators Reports},
+  title        = {Engineers guide to Terfenol-D actuators: Design, performance, and real-world applications},
+  doi          = {10.1016/j.snr.2024.100236},
+  issn         = {2666-0539},
+  pages        = {100236},
+  url          = {https://www.sciencedirect.com/science/article/pii/S2666053924000523},
+  urldate      = {2026-06-03},
+  volume       = {8},
+  abstract     = {Terfenol-D, a rare earth substance renowned for its remarkable magnetostrictive capabilities, is used in the field of actuators and sensors. The objective of this study is to demonstrate the most recent developments in Terfenol-D actuator technology and its use in many fields such as motors, fuel injectors, inkjet printing heads, servovalves, pumps, and active vibration controllers. The emphasis will be on showcasing the latest accomplishments in this domain. This study offers comprehensive insights into the design, operational features, and performance metrics of several Terfenol-D actuators, accompanied by pertinent schematic illustrations and quantitative measurements. This paper provides an overview of the fundamental structures, consistency of the magnetic field along the Terfenol-D rod, displacement amplification process, and several applications. The focus of the argument has been on the ongoing scientific studies about the actuation capabilities of Terfenol-D actuators. This review paper aims to appeal to the interests and passion of academics, researchers, and engineers involved in the manufacturing, design, analysis, and control of Terfenol-D actuators.},
+  comment      = {Optional addition to magnetostrictive actuator sentence
+Recent Elsevier/open source; practical overview of Terfenol-D actuator structures and performance},
+  file         = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S2666053924000523/pdfft?download=true:application/pdf},
+  keywords     = {Terfenol-D actuator, Applications, Displacement amplification},
+  shortjournal = {Sensors and Actuators Reports},
+  shorttitle   = {Engineers guide to Terfenol-D actuators},
+}
+
+@Article{Milasevicius2023,
+  author       = {Milaševičius, Martynas and Mačiulis, Laurynas},
+  date         = {2023-12},
+  journaltitle = {Aerospace},
+  title        = {A Review of Mechanical Fine-Pointing Actuators for Free-Space Optical Communication},
+  doi          = {10.3390/aerospace11010005},
+  issn         = {2226-4310},
+  langid       = {english},
+  number       = {1},
+  pages        = {5},
+  url          = {https://www.mdpi.com/2226-4310/11/1/5},
+  urldate      = {2026-06-03},
+  volume       = {11},
+  abstract     = {This paper presents a state-of-the-art overview of fine beam steering mechanisms for free-space optical communication on satellites. Precise beam pointing is a critical task for the successful operation of free-space optical communication systems. Based on past research and ongoing projects, the use of fast steering mirrors ({FSMs}) is still the most popular solution for free-space optical communication applications. Although a variety of commercial off-the-shelf ({COTS}) {FSM} solutions exist, there is limited publicly available data on these solutions in the space environment. Three main actuation principles are considered (electro-static force actuated, magnetic force actuated, piezo-effect actuated) and reviewed using available data from past space missions. The article describes the most important criteria in the choice of a fine beam steering solution for free-space optical communication in space.},
+  comment      = {Transition to FSM / large-range fine pointing; why piezo stroke can be limiting
+Good broad actuator comparison for free-space optical communication and FSM applications},
+  file         = {:Milasevicius2023 - A Review of Mechanical Fine Pointing Actuators for Free Space Optical Communication.pdf:PDF},
+  groups       = {FSM Technology/Applications},
+  howpublished = {Review},
+  keywords     = {free-space communication, optical communication, fine steering, fast steering mirror, fine pointing, {CubeSat}, nanosat, {MEMS}, {FSM}, piezoelectric, voice coil, reluctant actuator, linear stage, {SWaP}},
+  publisher    = {MDPI AG},
+  rights       = {http://creativecommons.org/licenses/by/3.0/},
+  type         = {Review},
+}
+
+ 
+@Article{Kim2013,
+  author       = {Kim, Hyunchang and Kim, Hyoyoung and Ahn, Dahoon and Gweon, Daegab},
+  date         = {2013-12-01},
+  journaltitle = {Sensors and Actuators A: Physical},
+  title        = {Design of a new type of spherical voice coil actuator},
+  doi          = {10.1016/j.sna.2013.08.030},
+  issn         = {0924-4247},
+  pages        = {181--188},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0924424713004147},
+  urldate      = {2026-06-03},
+  volume       = {203},
+  abstract     = {In this article, we describe the design of and an experiment with a new type of spherical voice coil actuator. The designed actuator has a large tilt angle of ±40°, high tilt torque, and a uniform and decoupled torque constant for each coil within a compact diameter of 100mm. The designed actuator is composed of a rotor, a gimbal guide mechanism, and a stator. In order to decouple the tilt torque generated by each coil, the rotor has two pairs of coils. One pair of coils is circular, and the other is rectangular. For that reason, each axis of the gimbal guide mechanism coincides with each axis of the tilt torque generated by each corresponding pair of coils. In addition, because the principle of the proposed actuator is based on the Lorentz force, the tilt torque generated by each coil is directly proportional to the driving current. Therefore, the proposed actuator is easy to control. We carried out optimization of the proposed actuator to maximize the tilt torque with a limited size. To verify the results of the optimal design process of the actuator, an {FEM} simulation was carried out. We realized and tested the designed actuator to verify the torque performance. The realized actuator has an X and Y′-axis tilt torque constant of 0.35Nm/A.},
+  comment      = {Lorentz/voice-coil actuators for large angular range and current-proportional torque
+Elsevier paper; explicitly reports large tilt angle, high torque, compact design, and decoupled torque constants},
+  file         = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0924424713004147/pdfft?download=true:application/pdf},
+  groups       = {Lorentz Actuators},
+  keywords     = {Spherical actuator, Voice coil actuator, Multiple-degree-of-freedom, High tilt torque, Compact size, Optimization},
+  shortjournal = {Sensors and Actuators A: Physical},
+}
+
+ 
+@Article{Hicks2017,
+  author       = {Hicks, Dion and Rahman, Taufiq and Krouglicof, Nicholas},
+  date         = {2017-05-23},
+  journaltitle = {Journal of Mechanisms and Robotics},
+  title        = {A High Performance Voice Coil Actuator for Optomechatronic Applications},
+  doi          = {10.1115/1.4035879},
+  issn         = {1942-4302},
+  number       = {41014},
+  url          = {https://doi.org/10.1115/1.4035879},
+  urldate      = {2026-06-03},
+  volume       = {9},
+  abstract     = {Voice coil actuators ({VCAs}) are simple electro-mechanical devices, which are capable of generating linear motion in response to an electrical input. The generic cylindrical design of commercially available actuators imposes a large variety of limitations on the end user. The most prominent is the requirement to design and fit extra components to the actuator in order to increase functionality. To solve this issue, a novel voice coil actuator was created, which reconfigures the standard cylindrical design with one of a rectangular structure. The novel actuator incorporates planar magnets in a modified Halbach array configuration to ensure compactness and an exceptionally intense, uniform magnetic field. The moving coil is substituted with a printed circuit board ({PCB}) encompassing numerous current conducting traces. The board contains a miniature linear rail and bearing system, unified drive electronics, and highly adaptive position feedback circuitry resulting in a compact, highly dynamic and accurate device. In pursuit of optomechatronic applications, two distinct parallel kinematic mechanisms ({PKMs}) were developed to utilize the high dynamics and accuracy of the novel actuator. These devices were configured to function in only rotational degrees-of-freedom ({DOF}) and because of their underlying kinematic structures can be referred to as parallel orientation manipulators ({POMs}). In particular, two structures were defined, 2-{PSS}/U and 3-{PSS}/S, in order to constrain their payloads to two and three degrees of rotational freedom, respectively. The resultant manipulators are highly dynamic, precise and fulfill size, weight, and power requirements for many applications such as sense and avoidance and visual tracking.},
+  comment      = {Rectangular Lorentz with Halbach array, Coil is directly on PCB
+Voice-coil actuators as simple, direct-drive optomechatronic actuators
+Good external source for VCA motivation in optical/mechatronic precision system},
+  file         = {Full Text PDF:https\://asmedigitalcollection.asme.org/mechanismsrobotics/article-pdf/9/4/041014/6257109/jmr_009_04_041014.pdf:application/pdf},
+  groups       = {Lorentz Actuators},
+  shortjournal = {J. Mechanisms Robotics},
+}
+
+ 
+@Article{Pumphrey2024,
+  author       = {Pumphrey, Michael and Al Saaideh, Mohammad and Alatawneh, Natheer and Al Janaideh, Mohammad},
+  date         = {2024-12-01},
+  journaltitle = {Precision Engineering},
+  title        = {Recent progress on modeling and control of reluctance actuators in precision motion systems},
+  doi          = {10.1016/j.precisioneng.2024.08.016},
+  issn         = {0141-6359},
+  pages        = {107--131},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0141635924001910},
+  urldate      = {2026-06-03},
+  volume       = {91},
+  abstract     = {Reluctance actuators ({RA}) are a type of electromagnetic actuator that offers high forces for short-range motions. The {RA} takes advantage of the electromagnetic reluctance force property in air gaps between the stator core and mover parts. The stator generates a magnetic flux that produces a magnetic attraction force between the stator and the mover, where the output force is dependent on the air gap displacement nonlinearly. It is demonstrated that the {RA} can produce a force that is effective and suitable for millimeter-range high-acceleration applications. One application for the {RA} is the short-stroke stage of photolithography or lithography machines, for example. The {RA} is available in a wide variety of configurations, such as C-Core, E-Core, Maxwell, and Plunger-type designs. The {RA} requires precise dynamic models and control algorithms to help linearize the {RA} for better control and optimization. Some nonlinear dynamics include magnetic hysteresis, flux fringing, and eddy currents. The {RA} is shown to have a larger force density than any other traditional actuator designs, with the main disadvantage being the nonlinear and hysteresis nonlinearities, making it difficult to control precision motion applications without proper dynamic and control models in place. This review documents currently available knowledge of the {RA} such as available applications, configurations, dynamic models, measurement systems, and control systems for the {RA}.},
+  comment      = {Review paper of different reluctance actuators / hybrid reluctance linear and FSM
+General reluctance actuator motivation and challenges
+Elsevier review-style source; documents applications, configurations, dynamic models, measurement systems, and control systems},
+  file         = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0141635924001910/pdfft?download=true:application/pdf},
+  groups       = {Hybrid Reluctance Actuators},
+  keywords     = {Reluctance actuator, Electromagnetic actuator, Actuators, Mechatronics, Magnetic flux, Magnetic hysteresis, Nonlinear control, Precision motion system, Precision positioning},
+  shortjournal = {Precision Engineering},
+}
+
+ 
+@InProceedings{Pumphrey2024a,
+  author     = {Pumphrey, Michael and Al Saaideh, Mohammad and Alatawneh, Natheer and Al Janaideh, Mohammad},
+  date       = {2024-07},
+  title      = {Modeling Reluctance Actuator Topologies with a Focus on Stiffness},
+  doi        = {10.23919/ACC60939.2024.10644682},
+  eventtitle = {2024 American Control Conference ({ACC})},
+  note       = {{ISSN}: 2378-5861},
+  pages      = {3797--3802},
+  url        = {https://ieeexplore.ieee.org/abstract/document/10644682/authors},
+  urldate    = {2026-06-03},
+  abstract   = {The reluctance actuator ({RA}) can provide more acceleration than the Lorentz actuators that are currently in use in next-generation wafer scanners used in semiconductor lithography systems. These wafer scanners are utilized in semiconductor lithography systems. Due to the significant amount of nonlinearity that exists between the {RA}'s input current and output force, it might be challenging to build an effective control system. In the ten years prior, a great number of studies contributed to the modelling, design, and control of {RAs}; however, the geometrical topology of the actuator was not evaluated from the standpoint of control. This study presents topology selection criteria with the intention of improving the control design process. Additionally, it assesses the various accessible {RA} topologies, including C and E cores, with reference to the modelling of stiffness. The C-core {RA} was shown to have a lower magnitude of stiffness at low air gap values (less than 0.5 mm) when compared to the E-core {RA}. This was discovered through simulation as well as through experimentation.},
+  file       = {Full Text PDF:Pumphrey2024a - Modeling Reluctance Actuator Topologies with a Focus on Stiffness.pdf:PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10644682&ref=},
+  groups     = {Hybrid Reluctance Actuators, Modeling/Simulation},
+  issn       = {2378-5861},
+  keywords   = {Semiconductor device modeling, Actuators, Uncertainty, Atmospheric modeling, Simulation, Air gaps, Lithography},
+}
+
+ 
+@Article{Pumphrey2024b,
+  author       = {Pumphrey, Michael and Saaideh, Mohammad Al and Al-Rawashdeh, Yazan M. and Alatawneh, Natheer and Janaideh, Mohammad Al},
+  date         = {2024-03-01},
+  journaltitle = {Precision Engineering},
+  title        = {Force modeling of a reluctance motion system with multi-axial asymmetrical air gaps},
+  doi          = {10.1016/j.precisioneng.2023.12.009},
+  issn         = {0141-6359},
+  pages        = {276--284},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0141635923002350},
+  urldate      = {2026-06-03},
+  volume       = {86},
+  abstract     = {Semiconductor photolithography equipment requires an actuation system that can satisfy high acceleration and precision demands on the nanoscale in order to operate with high throughput and efficiency. Reluctance actuators, which offer greater acceleration and force output than conventional Lorentz actuators, are one option. The photolithography technique uses a floating stage with air bearings to reduce friction; nonetheless, vibration transfer is not completely prevented, potentially causing misalignment and asymmetries between the actuator components. The output force can be significantly impacted by unequal offsets between the mover and stator. In the paper that follows, a technique for calculating the force of various asymmetrical instances for the C-core reluctance actuator is demonstrated. This paper looks into the effect of rotational offsets in all rotational degrees of freedom occurring simultaneously. Previously, only each degree of freedom was analyzed. Analytical models are developed and compared to Comsol Multiphysics ({COMSOL}) simulations, and experimental findings show accuracy to be within almost 10\% for the ranges examined. The findings presented can allow for future control systems to be designed to counteract multi-axial asymmetric issues.},
+  comment      = {Contains principle of lithography system with balance masses, dual stage etc...
+Extension of analytical flux modeling of earlier paper for multi axis asymmetric air gaps},
+  file         = {:Pumphrey2024b - Force Modeling of a Reluctance Motion System with Multi Axial Asymmetrical Air Gaps.pdf:PDF},
+  groups       = {Modeling/Simulation},
+  keywords     = {Reluctance actuator, Magnetic force, Asymmetrical air gaps, Magnetic flux, Photolithography, Precision motion system},
+  priority     = {prio1},
+  ranking      = {rank5},
+  shortjournal = {Precision Engineering},
+}
+
+ 
+@Article{Pumphrey2022,
+  author       = {Pumphrey, Michael and Alatawneh, Natheer and Al Janaideh, Mohammad},
+  date         = {2022-07-01},
+  journaltitle = {Review of Scientific Instruments},
+  title        = {Modeling and analysis of reluctance motion system with asymmetrical air gaps},
+  doi          = {10.1063/5.0088120},
+  issn         = {0034-6748, 1089-7623},
+  langid       = {english},
+  number       = {7},
+  pages        = {075001},
+  url          = {https://pubs.aip.org/rsi/article/93/7/075001/2849119/Modeling-and-analysis-of-reluctance-motion-system},
+  urldate      = {2026-06-03},
+  volume       = {93},
+  abstract     = {To achieve high throughput and efficiency, semiconductor photolithography machines need an actuation system that can meet high acceleration and precision demands on the nanoscale. One available solution is the reluctance actuator, which provides higher acceleration and force output than the standard Lorentz actuator. A floating stage with air-bearings is used to eliminate friction in the photolithography process; however, vibration transfer is not entirely eliminated, leading to potential misalignment and asymmetries between the actuator elements. With asymmetrical offsets between mover elements, the output force can be greatly affected. This paper shows a method for estimating the force of various asymmetrical cases for the C-core reluctance actuator. Analytical models are developed and further improved through polynomial curve fitting using precomputed finite element simulation results from Comsol Multiphysics ({COMSOL}) to achieve more optimal solutions. An experiment verified the results of the force estimation equations, which were within ∼11\% for different cases of asymmetric air gaps. This contribution will lead to a design for a control system that will overcome the issue of asymmetries or other altered states.},
+  comment      = {Reluctance force modeling / Maxwell-normal-stress motivation},
+  file         = {:Pumphrey2022 - Modeling and Analysis of Reluctance Motion System with Asymmetrical Air Gaps.pdf:PDF},
+  groups       = {Modeling/Simulation},
+}
+
+ 
+@Article{AlSaaideh2022,
+  author       = {Al Saaideh, Mohammad and Alatawneh, Natheer and Al Janaideh, Mohammad},
+  date         = {2022-03-15},
+  journaltitle = {Journal of Magnetism and Magnetic Materials},
+  title        = {Multi-objective optimization of a reluctance actuator for precision motion applications},
+  doi          = {10.1016/j.jmmm.2021.168652},
+  issn         = {0304-8853},
+  pages        = {168652},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0304885321008891},
+  urldate      = {2026-06-03},
+  volume       = {546},
+  abstract     = {Recent research and assessments have shown that the reluctance actuator is a promising candidate to drive the next generation precision motion system of the lithography machine in the semiconductor industry. This paper proposes an multi-objective optimization algorithm for an optimal design of E-core reluctance actuator considering the requirements of the precision motion system. The objectives of optimization include maximizing the output magnetic force, minimizing the mass and the time constant of the actuator, and driving the actuator stiffness value to zero. First, the characteristics of the reluctance actuator are expressed in terms of the design variables of the reluctance actuator. After that, the optimization algorithm using the Grid search method and Pareto optimal approach is proposed to obtain the optimal design of the reluctance actuator. Finally, the optimal design of the reluctance actuator is implemented in a precision motion system example. The simulation results are obtained using Finite Element Analysis in {COMSOL} to check the saturation of magnetic flux in the reluctance actuator. The dynamic response of reluctance actuator motion system is obtained in the time domain for different inputs to verify the optimal design of the reluctance actuator.},
+  comment      = {Classical reluctance actuator: force density, gap dependence, design optimization (Includes explanation about pareto optimization etc..)
+External Elsevier source; explicitly targets E-core reluctance actuators for precision motion system},
+  file         = {:AlSaaideh2022 - Multi Objective Optimization of a Reluctance Actuator for Precision Motion Applications.pdf:PDF},
+  groups       = {Hybrid Reluctance Actuators},
+  keywords     = {Reluctance actuator, Motion system, Multi-objective optimization, Magnetic actuator design, Pareto optimal approach},
+  shortjournal = {Journal of Magnetism and Magnetic Materials},
+}
+
+ 
+@Article{Ito2020,
+  author       = {Ito, Shingo and Cigarini, Francesco and Schitter, Georg},
+  date         = {2020-11},
+  journaltitle = {{IEEE} Transactions on Industrial Electronics},
+  title        = {Flux-Controlled Hybrid Reluctance Actuator for High-Precision Scanning Motion},
+  doi          = {10.1109/TIE.2019.2952829},
+  issn         = {1557-9948},
+  number       = {11},
+  pages        = {9593--9600},
+  url          = {https://ieeexplore.ieee.org/abstract/document/8902198},
+  urldate      = {2026-06-03},
+  volume       = {67},
+  abstract     = {To achieve highly precise and linear scanning motion by a hybrid reluctance actuator ({HRA}), this article proposes a flux-controlled mode that uses regulated magnetic flux as the control input for the actuator operation and evaluates its performance in comparison with the conventional current-controlled mode. In the conventional case, {HRAs} exhibit magnetic nonlinearities (e.g., hysteresis) and position-dependent force that can make the system unstable. A model-based analysis reveals that they are included in the variable magnetic flux of an {HRA}. Thus, they are captured by flux estimation and rejected by flux feedback control for high-quality scanning motion. For the estimation, sensor fusion with a current monitor and a search coil is used. Proportional integral ({PI}) controllers are used for the flux feedback control, as well as for current feedback control of the benchmarking current-controlled mode. During scanning, feedforward control is used to compensate linear dynamics. When sine motions are experimentally tested at 60-300 Hz, the current-controlled mode exhibits a nonlinearity between 6\% and 23\%, which is decreased to less than 5\% by the flux-controlled mode. For a ±75 μm triangular motion at 100 Hz, the flux-controlled mode decreases the tracking error by a factor of 19 to 3.2 μm, successfully demonstrating its high-quality linear scanning motion.},
+  comment      = {HRA nonlinearities and flux-control compensation
+TU Wien-related; very suitable for sentence about hysteresis, position-dependent force, and need for careful contro},
+  file         = {Full Text PDF:Ito2020 - Flux Controlled Hybrid Reluctance Actuator for High Precision Scanning Motion.pdf:PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=8902198&ref=},
+  groups       = {Hybrid Reluctance Actuators},
+  keywords     = {Actuators, Force, Estimation, Magnetic hysteresis, Feedback control, Motion control, Reluctance motors, Actuators, magnetic variables control, motion control, nanopositioning},
+}
+
+ 
+@Article{Gao2025,
+  author       = {Gao, Wei and Xu, Yongsen and Xu, Rui and Wang, Fuchao and Xu, Yulei and Liang, Chao and Jia, Ping},
+  date         = {2025-12-16},
+  journaltitle = {Sensors and Actuators A: Physical},
+  title        = {Nonlinear modeling, Measurement, and Control of a hybrid reluctance-actuated fast steering mirror},
+  doi          = {10.1016/j.sna.2025.117180},
+  issn         = {0924-4247},
+  pages        = {117180},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0924424725009860},
+  urldate      = {2026-06-03},
+  volume       = {396},
+  abstract     = {The hybrid reluctance-actuated fast steering mirror ({HRA}-{FSM}) addresses the performance limitations of conventional fast steering mirrors in terms of aperture, bandwidth, and stroke. However, the nonlinear torque characteristics that arise at large deflection angles continue to constrain further improvements in {HRA}-{FSM} performance. Existing mathematical models exhibit considerable errors, and current studies lack effective methods for nonlinearities evaluation. In this study, a novel nonlinear {HRA} model is developed based on a prototype system. This model establishes the mapping between nonlinear common-mode and differential-mode components to elucidate the complex angle-current coupling dynamics. Experimental validation is performed by quantifying magnetic flux density distribution differences at the stator end faces and Hall sensor measurements. This paper details the theoretical framework for nonlinear modeling, the experimental measurement principles, and introduces a feedback linearization compensation control algorithm. This approach achieves a 48.8\% reduction in bandwidth fluctuation and up to 36.4\% decrease in tracking error. The {HRA}-{FSM} prototype demonstrates a range-bandwidth product of 18,675 mrad Hz, surpassing the performance of existing single-axis {FSMs}.},
+  file         = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0924424725009860/pdfft?download=true:application/pdf},
+  groups       = {Hybrid Reluctance Actuators},
+  keywords     = {Fast steering mirror, Hybrid reluctance actuator, Nonlinear model, Magnetic flux measurement, Nonlinear compensator},
+  shortjournal = {Sensors and Actuators A: Physical},
+}
+
+@Misc{Hoekwater2022,
+  author      = {W. B. Hoekwater and J. D. Wiersema1 and S. H. HosseinNia},
+  date        = {2022},
+  title       = {Hybrid Tunable Magnet Actuator: Modeling and Design},
+  eprint      = {2212.01242},
+  eprintclass = {eess.SY},
+  eprinttype  = {arXiv},
+  url         = {https://arxiv.org/abs/2212.01242},
+  comment     = {HRA with tunable soft magnetic material, Delft university},
+  file        = {:Hoekwater2022 - Hybrid Tunable Magnet Actuator_ Modeling and Design.pdf:PDF},
+  groups      = {Hybrid Reluctance Actuators},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: grouping:
@@ -5948,6 +6291,7 @@ Therefore no cables need to go on coarse positioning unit and no coil has to be 
 2 StaticGroup:Hysteresis motors\;0\;0\;0x8a8a8aff\;\;\;;
 2 StaticGroup:Modeling/Simulation\;0\;1\;0x8a8a8aff\;\;\;;
 2 StaticGroup:Hybrid Reluctance Actuators\;0\;0\;0x8a8a8aff\;\;\;;
+2 StaticGroup:Lorentz Actuators\;0\;1\;0x8a8a8aff\;\;\;;
 1 StaticGroup:Uncertainty Metrics\;0\;1\;\;\;\;;
 1 StaticGroup:Dual-stage positioning systems\;0\;1\;0x669999ff\;\;\;;
 }
