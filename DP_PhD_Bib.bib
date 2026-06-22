@@ -7022,7 +7022,7 @@ EXPORT DATE: 03 June 2026
   urldate      = {2026-06-22},
   volume       = {324},
   abstract     = {The purpose of this paper is to extend classical modal analysis to decouple any viscously damped linear system in oscillatory free vibration. Based upon an exposition of how viscous damping causes phase drifts in the components of a linear system, the concept of non-classically damped modes of vibration is introduced. These damped modes are real and physically excitable. By synchronizing the phase angles in each damped mode, a time-varying transformation is constructed to decouple damped oscillatory free vibration. The decoupling procedure devised herein reduces to classical modal analysis for systems that are undamped or classically damped. This paper constitutes the first part of a solution to the “classical decoupling problem” of linear systems.},
-  file         = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0022460X09001539/pdfft?download=true:application/pdf},
+  file         = {:Ma2009.pdf:PDF},
   groups       = {Decoupling of mech. systems},
   shortjournal = {Journal of Sound and Vibration},
 }
@@ -7041,9 +7041,83 @@ EXPORT DATE: 03 June 2026
   urldate      = {2026-06-22},
   volume       = {329},
   abstract     = {The purpose of this paper is to extend classical modal analysis to decouple any viscously damped linear system in non-oscillatory free vibration or in forced vibration. Based upon an exposition of how exponential decay in a system can be regarded as imaginary oscillations, the concept of damped modes of imaginary vibration is introduced. By phase synchronization of these real and physically excitable modes, a time-varying transformation is constructed to decouple non-oscillatory free vibration. When time drifts caused by viscous damping and by external excitation are both accounted for, a time-varying decoupling transformation for forced vibration is derived. The decoupling procedure devised herein reduces to classical modal analysis for systems that are undamped or classically damped. This paper constitutes the second and final part of a solution to the “classical decoupling problem.” Together with an earlier paper, a general methodology that requires only the solution of a quadratic eigenvalue problem is developed to decouple any damped linear system.},
-  file         = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0022460X10001227/pdfft?download=true:application/pdf},
+  file         = {:Ma2010.pdf:PDF},
   groups       = {Decoupling of mech. systems},
   shortjournal = {Journal of Sound and Vibration},
+}
+
+ 
+@Article{Liu2025a,
+  author       = {Liu, Kaixin and Song, Fazhi and Dong, Yue and Liu, Yang and Tan, Jiubin},
+  date         = {2025},
+  journaltitle = {{IEEE} Transactions on Automation Science and Engineering},
+  title        = {Data-Based Dynamic Decoupling Control for {MIMO} Precision Motion Stages With Position-Dependent Disturbances},
+  doi          = {10.1109/TASE.2024.3439102},
+  issn         = {1558-3783},
+  pages        = {6122--6133},
+  url          = {https://ieeexplore.ieee.org/abstract/document/10636115},
+  urldate      = {2026-06-22},
+  volume       = {22},
+  abstract     = {Decoupling control is a widely employed technique used to mitigate coupling effects and bridge the gap between multiple-input multiple-output ({MIMO}) and single-input single-output ({SISO}) control. In the field of precision motion control, the cross-talk resulting from coarse decoupling poses a significant challenge to achieving high performance. Static decoupling control fails to completely decouple the {MIMO} system due to dynamic disparities between drives, actuators, and the flexible modes of the plant. Consequently, dynamic decoupling control methods have gained attention for their potential to enhance performance. However, existing dynamic decoupling control methods suffer from limitations such as reliance on system models, and susceptibility to disturbances and noise. In this paper, these deficiencies are addressed by 1) a data-based optimization with no involvement of model knowledge, and 2) using the augmented vector and instrumental variable to eliminate the estimation bias caused by position-dependent disturbances and measurement noise. The effectiveness and superiority of the proposed method are substantiated through numerical simulations and experiments conducted on an ultra-precision wafer stage. Note to Practitioners—This paper presents a non-iterative dynamic decoupling method, which is suitable for {LTI} multivariable systems with stringent precision requirements, such as the wafer stage and the atomic force microscope. In the field of precision motion control, the feedback controller plays a crucial role in the stability and robustness of the system. However, to achieve the desired performance, additional methods may be necessary, such as feedforward control method, nonlinear control method, etc. Especially for multiple-input multiple-output systems, it is essential to maintain high decoupling accuracy to avoid the cross-talk, which emerges due to a coarse decoupling. Given the practical differences in dynamic characteristics between drives and actuators, as well as non-rigid modes in the system, dynamic decoupling is recommended over static decoupling. Furthermore, it is promising to develop a data-based method that enables inevitable uncertainties between the model and the actual plant. In the dynamic decoupling method proposed in this paper, the impact of position-dependent disturbances and the measurement noise are jointly taken into consideration, which has not been previously addressed in literature. The augmented vector and instrumental variable are introduced to eliminate the adverse effects of these irrelevant data. Consequently, an unbiased estimate of the dynamic decoupling controller can be obtained. The practicality and effectiveness of the proposed method have been demonstrated. In future work, we will focus on the optimal selection of the dynamic decoupling controller under bounded disturbances and its application to redundant systems.},
+  file         = {Full Text PDF:Liu2025a - Data Based Dynamic Decoupling Control for MIMO Precision Motion Stages with Position Dependent Disturbances.pdf:PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10636115&ref=},
+  groups       = {Decoupling of mech. systems},
+  keywords     = {Noise, Dynamics, Noise measurement, Accuracy, Semiconductor device modeling, {MIMO} communication, Vectors, Cross-talk, data-based, dynamic decoupling control, multiple-input multiple-output ({MIMO}), position-dependent disturbance},
+}
+
+ 
+@Article{Li2020,
+  author       = {Li, Min and Mao, Caohui and Zhu, Yu and Yang, Kaiming and Li, Xin},
+  date         = {2020-03},
+  journaltitle = {{IEEE} Transactions on Industrial Informatics},
+  title        = {Data-Based Iterative Dynamic Decoupling Control for Precision {MIMO} Motion Systems},
+  doi          = {10.1109/TII.2019.2925628},
+  issn         = {1941-0050},
+  number       = {3},
+  pages        = {1668--1676},
+  url          = {https://ieeexplore.ieee.org/abstract/document/8750822},
+  urldate      = {2026-06-22},
+  volume       = {16},
+  abstract     = {Decoupling control is still an important research topic for precision multiple-input-multiple-output ({MIMO}) motion systems involved in computer numerically controlled ({CNC}) machine tools, wafer scanners, etc. In this paper, to minimize internal coupling and improve servo performance, a data-based iterative dynamic decoupling control ({IDDC}) approach is synthesized. Specifically, a {MIMO} dynamic decoupling controller structured with finite impulse response filter is used as an add-on to a static decoupling part. Then, a data-based parameter optimization algorithm is developed such that the optimal parameters can be iteratively solved based entirely on the input/output data by minimizing the coupling-induced error. Unlike pre-existing {IDDC} approaches, the proposed approach can achieve an unbiased estimate of the optimal parameters combined with a small estimate variance that is illustrated through numerical simulation. Finally, application to an ultraprecision wafer stage confirms that the proposed approach significantly decreases the coupling-induced error and achieves enhanced performance compared to pre-existing approaches.},
+  file         = {Full Text PDF:Li2020 - Data Based Iterative Dynamic Decoupling Control for Precision MIMO Motion Systems.pdf:PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=8750822&ref=},
+  groups       = {Decoupling of mech. systems},
+  keywords     = {{MIMO} communication, Dynamics, Couplings, Servomotors, Optimization, Semiconductor device modeling, Control design, Dynamic decoupling, data-based, iterative optimization, multiple-input-multiple-output ({MIMO}), precision motion systems},
+}
+
+ 
+@InProceedings{Liu2024,
+  author     = {Liu, Kaixin and Liu, Yang and Song, Fazhi and Zhang, Chen and Li, Wenfeng and Wang, Zijia},
+  date       = {2024-05},
+  title      = {Data Driven Dynamic Decoupling Control for {MIMO} Precision Mechatronic Systems},
+  doi        = {10.1109/DDCLS61622.2024.10606678},
+  eventtitle = {2024 {IEEE} 13th Data Driven Control and Learning Systems Conference ({DDCLS})},
+  note       = {{ISSN}: 2767-9861},
+  pages      = {1305--1310},
+  url        = {https://ieeexplore.ieee.org/abstract/document/10606678},
+  urldate    = {2026-06-22},
+  abstract   = {Decoupling control is extensively employed in precision mechatronic systems, particularly within the semiconductor field. In this context, the inputs and outputs are effectively decoupled through the utilization of a static decoupling matrix. However, the prevalent challenge arises from cross-talk induced by errors inherent in the static decoupling process. This challenge poses a significant obstacle in meeting the stringent demands of high-speed and high-precision motion, stemming from inaccuracies in mechanical parameters and variations in motor characteristics, particularly under conditions of high dynamics. To enhance the performance of precision mechatronic systems, it is recommended to replace the decoupling matrix with a dynamic decoupling controller. In this paper, a data driven dynamic decoupling control method is developed to improve the decoupling accuracy by calibrating the mechanical parameters and compensating the differences of motors. The effectiveness and practicality of the proposed method are illustrated through numerical simulations.},
+  file       = {Full Text PDF:Liu2024 - Data Driven Dynamic Decoupling Control for MIMO Precision Mechatronic Systems.pdf:PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10606678&ref=},
+  groups     = {Decoupling of mech. systems},
+  issn       = {2767-9861},
+  keywords   = {Learning systems, Actuators, Mechatronics, Accuracy, Tracking, Dynamics, Control systems, Data-based, Decoupling control, Motion control, Precision mechatronic systems},
+}
+
+ 
+@Article{Jiang2015,
+  author       = {Jiang, Yi and Zhu, Yu and Yang, Kaiming and Hu, Chuxiong and Yu, Dongdong},
+  date         = {2015-01},
+  journaltitle = {{IEEE} Transactions on Industrial Electronics},
+  title        = {A Data-Driven Iterative Decoupling Feedforward Control Strategy With Application to an Ultraprecision Motion Stage},
+  doi          = {10.1109/TIE.2014.2327559},
+  issn         = {1557-9948},
+  number       = {1},
+  pages        = {620--627},
+  url          = {https://ieeexplore.ieee.org/abstract/document/6823739},
+  urldate      = {2026-06-22},
+  volume       = {62},
+  abstract     = {This paper develops a data-driven decoupling feedforward control scheme with iterative tuning to meet the challenge of the crosstalk problem in multiple-input multiple-output ({MIMO}) motion control systems. In contrast to model-based approaches, iterative tuning fully utilizes the available data to address the practical difficulty in obtaining an accurate dynamic model. The {MIMO} feedforward signal is iteratively updated by minimizing the developed crosstalk criterion. Specifically, to make the optimal problem convex, the {MIMO} feedforward controller is structuralized with a finite impulse response ({FIR}) filter and is parameterized by corresponding coefficients. A data-driven unbiased gradient approximation based on the Toeplitz matrix is then developed for updating the parameter vector. Furthermore, to deal with the Hessian inverse problem encountered in the numerical calculation of the update law, a stable inversion method combined with singular value decomposition is employed. The basic characteristics of the proposed scheme, including convergence accuracy and convergence rate, are illustrated through simulation. Finally, the proposed data-driven decoupling control scheme is applied to a developed ultraprecision motion stage, and the results show that the approach can significantly attenuate the servo error caused by the crosstalk problem. This simplicity and accuracy oriented control method without need of dynamic modeling is definitely suitable for industrial applications.},
+  file         = {Full Text PDF:Jiang2015 - A Data Driven Iterative Decoupling Feedforward Control Strategy with Application to an Ultraprecision Motion Stage.pdf:PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=6823739&ref=},
+  groups       = {Decoupling of mech. systems},
+  keywords     = {Feedforward neural networks, Vectors, Servomotors, Crosstalk, {MIMO}, Approximation methods, Inverse problems, Crosstalk, data-driven tuning, decoupling feedforward control, gradient approximation, multiple-input multiple-output ({MIMO}) system},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
